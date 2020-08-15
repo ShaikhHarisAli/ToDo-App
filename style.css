@@ -1,0 +1,39 @@
+body{
+    text-align: center; 
+    margin-top: 50px;
+    background-image:url("images/Rectangle\ 4.png");
+}
+/* Input todo-item */
+input#todo-item {
+    width: 20%;
+    padding: 20px;
+    color: royalblue;
+    border: 2px solid red;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+/* button */
+button {
+    padding: 20px;
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: cyan;
+}
+
+/* li button */
+li {
+    list-style: none;
+    font-size: 25px;
+    padding: 5px;
+    color: yellow;
+}
+li button {
+    margin-left: 2%;
+}
